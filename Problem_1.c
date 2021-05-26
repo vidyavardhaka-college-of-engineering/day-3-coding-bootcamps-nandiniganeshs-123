@@ -9,9 +9,14 @@
 
 int main()
 {
-    int N;
+    int N,i,sum=0;
     printf("Enter the value for N\n");
     scanf("%d", &N);
+    for (i=0;i<=N;i++)
+    {
+      sum=sum+i;
+    }
+    printf(" sum is %d",sum);
 
     //Write your code here
        
